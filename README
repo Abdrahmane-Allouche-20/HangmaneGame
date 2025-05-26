@@ -1,0 +1,56 @@
+# Hangman Game
+
+A web-based Hangman game where players guess words from various categories. The game features a virtual keyboard, animated hangman drawing, scoring, sound effects, and a hint system for each word.
+
+## Features
+
+- **Multiple Categories:** Words are chosen from categories like Movies, Footballers, Fruits, Cars, Heroes, Emotions, Personality, Animals, Fish, Sports, and Countries.
+- **Virtual Keyboard:** Clickable on-screen keyboard for easy guessing.
+- **Animated Hangman:** Visual hangman drawing updates with each wrong guess.
+- **Hints:** Each word has a unique hint. Click the "Show Hint" button to reveal it.
+- **Score Tracking:** Earn points for correct guesses; lose points for wrong guesses.
+- **Responsive Design:** Works well on desktop and mobile devices.
+- **Sound Effects:** Audio feedback for correct, incorrect, win, and lose events.
+- **Game Over Modal:** Displays a modal with the correct word and play again option.
+
+## How to Play
+
+1. The game randomly selects a word from a category.
+2. Guess the word by clicking letters on the virtual keyboard.
+3. Each incorrect guess draws a part of the hangman.
+4. Click the **Show Hint** button if you need a clue (one hint per word).
+5. Win by guessing all letters before the hangman is fully drawn.
+6. Click **Play Again** to start a new round.
+
+## Setup
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/your-repo.git
+   ```
+2. **Navigate to the project folder:**
+   ```sh
+   cd hangmanGame/hangman
+   ```
+3. **Open `index.html` in your browser.**
+
+No build tools or server required.
+
+## File Structure
+
+- `index.html` – Main HTML file
+- `style.css` – Custom styles
+- `output.css` – (Optional) Tailwind or other CSS framework output
+- `master.js` – Game logic
+- `audio/` – Sound effects
+- `images/` – Icons and hangman images
+
+## Credits
+
+- Icons: [Font Awesome](https://fontawesome.com/)
+- Fonts: [Google Fonts - Chivo](https://fonts.google.com/specimen/Chivo)
+- Sound effects and images: Copyright respective owners
+
+---
+
+Enjoy playing Hangman!
